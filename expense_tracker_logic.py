@@ -21,3 +21,4 @@ def add_expense(description, amount, category, date):
     })
     df = pd.concat([df, new_expense], ignore_index=True)
     return df
+
